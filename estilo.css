@@ -182,7 +182,6 @@ div[class*=box] {
 }
 
 .btn-one::before {
-	/* content: ; */
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -195,8 +194,8 @@ div[class*=box] {
 	border-bottom-width: 1px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-top-color: rgba(25, 40, 255, 0.5);
-	border-bottom-color: rgba(25, 59, 255, 0.5);
+	border-top-color: rgba(0, 0, 0, 0.5);
+	border-bottom-color: rgba(0, 0, 0, 0.5);
 	transform: scale(0.1, 1);
 }
 
@@ -207,7 +206,7 @@ div[class*=box] {
 .btn-one:hover::before {
 	opacity: 0.5;	
 	transform: scale(1, 1);
-	background-color: #db3333;
+	background-color: #050505;
 }
 
 .btn-one::after {
@@ -226,8 +225,6 @@ div[class*=box] {
 	transform: scale(1, 1);
 }
 
-
-
 .cont {
 	width: 95%;
 	margin-right: auto;
@@ -242,6 +239,7 @@ div[class*=box] {
 	text-align: center;
 	line-height: 100px;
 	box-shadow: 0px 0px 10px rgb(199, 104, 104);
+    font-family: 'Grenze';
 }
 
 h2 {
@@ -249,9 +247,10 @@ h2 {
 }
 
 #conteudo {
-	width: 75%;
+	width: 80%;
 	float: right;
-	margin-top: 20px;
+	margin-top: 2%;
+	margin-bottom: 30px;
 }
 
 #navegacao {
@@ -262,7 +261,7 @@ h2 {
 	padding-bottom: 20px;
 	background: #f3c1c1;
 	text-align-last: center;
-	margin-top: 20px;
+	margin-top: 2%;
 }
 
 .coluna {
@@ -277,9 +276,6 @@ h2 {
     position: absolute;
     top: 3%;
     margin-left: 5%;
-	/* position: relative; */
-	/* top: 50%; */
-	/* transform: translateY(-50%); */
 }
 
 .menu {
@@ -306,21 +302,30 @@ h2 {
 
 
 footer {
-	padding: 40px 20px;
+	padding: 40px 0;
 	font-size: 0.8em;
-	padding: 40px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	background: rgb(184, 53, 2);
-	position: absolute;
-	bottom: 0;
+	position: relative;
+    bottom:0;
+    width: 100%;
 	left: 0;
 	right: 0;
 	margin-top: 100px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
+	box-shadow: -1px -1px 20px rgb(238, 119, 72);
+}
+
+.footer {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+	/* float: right; */
+	width: 20px;
+	margin-left: 20px;
 }
 
 /* .flex-c {
@@ -350,6 +355,7 @@ footer {
 	width: 50%;
 	float: left;
 	padding: 15px;
+	margin-bottom: 2%;
 }
 
 #secundario {
@@ -358,4 +364,6 @@ footer {
 	float: right;
 	background: #f3c1c1;
 	padding: 15px;
+	margin-bottom: 2%;
+	align-items: right;
 }
