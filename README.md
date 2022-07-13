@@ -1,6 +1,6 @@
 # Prática de código - Site HIV
 
-Estruturação baseada em curso da Udemy, sobre HIV.
+Estruturação baseada em curso da Udemy.
 
 ## Como Visualizar o Site
 - Clonando o repositório e acessando o arquivo index.html, o que permite modificar o código fonte e a estilização da página;
